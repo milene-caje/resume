@@ -1,0 +1,87 @@
+{
+  "contact": {
+    "location": "Praia Grande, SP"
+  },
+  "about": {
+    "firstParagraph": "Desenvolvedora Front-end Sênior com <strong>mais de uma década</strong> de experiência no desenvolvimento de aplicações <strong>web e mobile.</strong> Sou apaixonada por criar <strong>interfaces intuitivas e acessíveis.</strong> Tenho experiência na adoção de <strong>Inteligência Artificial</strong> para otimizar processos, aumentar a qualidade das entregas e tornar o desenvolvimento mais eficiente.",
+    "secondParagraph": "Ao longo da minha carreira, colaborei com equipes multidisciplinares na entrega de soluções para grandes empresas, como <strong> Itaú, BTG Pactual, Porto Seguro, Sesc Digital, Hyundai, Avianca, além de outros clientes de diferentes segmentos.</strong>"
+  },
+
+  "skill": {
+    "unitTesting": "Testes Unitários",
+    "webAccessibility": "Acessibilidade Web (WCAG)"
+  },
+
+  "experience": {
+    "title": "EXPERIÊNCIA PROFISSIONAL",
+
+    "ciT": {
+      "position": "Desenvolvedora Front-end Sênior",
+      "company": "CI&T",
+      "period": "Junho/2024 - Junho/2026",
+      "description": "Atuação como Desenvolvedora Front-end Sênior em projetos financeiros para <strong>Itaú e Rabobank.</strong>",
+      "items": [
+        "Desenvolvimento, em <strong>Angular,</strong> de solução para automatização de criação de landing pages, gerando mais agilidade e visibilidade para o time.",
+        "Criação de interfaces para o setor de investimentos, automatizando atividades dos corretores e tornando seus processos mais ágeis e práticos.",
+        "Aumento da cobertura de testes para 100% com apoio de <strong>LLM generativa.</strong>"
+      ]
+    },
+
+    "gft": {
+      "position": "Desenvolvedora Front-end Sênior",
+      "company": "GFT Technologies",
+      "period": "Novembro/2022 - Junho/2024",
+      "description": "Atuação como Desenvolvedora Front-end Sênior no Internet Banking do <strong>Banco BTG Pactual</strong>, utilizando <strong>Angular</strong> com arquitetura de <strong>microfrontends.</strong>",
+      "items": [
+        "Desenvolvimento de funcionalidades de autenticação, criação e recuperação de senha, além de telas para <strong>extrato, conta e cartões.</strong>",
+        "Criação e evolução de componentes do <strong>Design System,</strong> contribuindo para padronização, reutilização e agilidade no desenvolvimento."
+      ]
+    },
+
+    "deloitte": {
+      "position": "Tech Lead de Front-end",
+      "company": "Deloitte",
+      "period": "Abril/2020 - Novembro/2022",
+      "description": "Atuação como Tech Lead de Front-end em projetos digitais para <strong>Sesc Digital e Porto Seguro.</strong>",
+      "items": [
+        "Liderança técnica da equipe, com participação em <strong>recrutamento, mentoria e capacitação,</strong> além de apoio na definição de boas práticas e soluções.",
+        "No <strong>Sesc Digital,</strong> desenvolvimento da plataforma pública e painel administrativo, ampliando o acesso a conteúdos culturais.",
+        "No <strong>Porto Seguro Auto,</strong> desenvolvimento de funcionalidades para corretores, tornando a contratação de seguros mais automatizada, eficiente e intuitiva."
+      ]
+    },
+
+    "accenture": {
+      "position": "Desenvolvedora Full-stack",
+      "company": "Accenture",
+      "period": "Outubro/2016 - Abril/2020",
+      "description": "Atuação em projetos para clientes como <strong>Avianca, Santander, Hyundai, Grupo DPSP, Gerdau, GSK e Vivo.</strong>",
+      "items": [
+        "<strong>Capacitação, apoio e suporte técnico</strong> às equipes, contribuindo para a evolução profissional e disseminação de boas práticas.",
+        "Na <strong>Avianca Brasil,</strong> desenvolvimento de interfaces acessíveis seguindo as diretrizes <strong>WCAG.</strong>",
+        "Na <strong>Avianca Colômbia,</strong> capacitei a equipe em Bogotá sobre boas práticas de desenvolvimento e <strong>Acessibilidade Web.</strong>",
+        "No <strong>Grupo DPSP,</strong> desenvolvimento de solução digital para programas de ponto de venda, tornando os processos mais rápidos, eficientes e intuitivos."
+      ]
+    },
+
+    "tagInterativa": {
+      "position": "Desenvolvedora Back-end",
+      "company": "Tag Interativa",
+      "period": "Abril/2014 - Maio/2015",
+      "items": [
+        "Desenvolvimento de todas as etapas do desenvolvimento das soluções, desde a <strong>modelagem do banco de dados</strong> até a construção de painéis administrativos, permitindo que clientes gerenciem conteúdos e informações de seus sites institucionais de forma mais eficiente.",
+        "Aplicação de boas práticas de engenharia de software, como <strong>SOLID, MVC e TDD,</strong> priorizando código limpo, organizado e de fácil manutenção."
+      ]
+    }
+  },
+
+  "education": {
+    "title": "FORMAÇÃO ACADÊMICA",
+    "course": "Graduação em Ciência da Computação"
+  },
+
+  "language": {
+    "title": "IDIOMAS",
+    "english": "<strong>Inglês</strong> - avançado;",
+    "spanish": "<strong>Espanhol</strong> - intermediário;"
+  }
+}

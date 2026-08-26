@@ -1,0 +1,83 @@
+{
+  "contact": {
+    "location": "Praia Grande, Brazil"
+  },
+  "about": {
+    "firstParagraph": "Senior <strong>Frontend Developer</strong> with <strong>over a decade of experience</strong> developing <strong>web and mobile applications</strong>. Passionate about creating <strong>intuitive and accessible interfaces</strong>. Experienced in adopting <strong>Artificial Intelligence</strong> to optimize processes, improve delivery quality, and increase development efficiency.",
+    "secondParagraph": "Throughout my career, I have collaborated with multidisciplinary teams to deliver solutions for major companies, including <strong>Itaú, BTG Pactual, Porto Seguro, Sesc Digital, Hyundai, and Avianca</strong>, as well as clients across different industries."
+  },
+  "skill": {
+    "unitTesting": "Unit Testing",
+    "webAccessibility": "Web Accessibility (WCAG)"
+  },
+  "experience": {
+    "title": "PROFESSIONAL EXPERIENCE",
+
+    "ciT": {
+      "position": "Senior Frontend Developer",
+      "company": "CI&T",
+      "period": "June 2024 - June 2026",
+      "description": "Senior Frontend Developer working on financial projects for <strong>Itaú and Rabobank.</strong>",
+      "items": [
+        "Developed an <strong>Angular</strong> solution to automate the creation of landing pages, increasing team efficiency and project visibility.",
+        "Developed interfaces for the Investment division, automating brokers' activities and making their workflows faster and more efficient.",
+        "Increased test coverage to 100% with the support of a <strong>generative LLM.</strong>"
+      ]
+    },
+
+    "gft": {
+      "position": "Senior Frontend Developer",
+      "company": "GFT Technologies",
+      "period": "November 2022 - June 2024",
+      "description": "Senior Frontend Developer on <strong>BTG Pactual's Internet Banking</strong> project, using <strong>Angular</strong> with a <strong>microfrontend architecture.</strong>",
+      "items": [
+        "Developed authentication features, password creation and recovery flows, as well as interfaces for <strong>statements, accounts, and cards.</strong>",
+        "Developed and evolved <strong>Design System components</strong>, contributing to standardization, reusability, and greater development efficiency."
+      ]
+    },
+
+    "deloitte": {
+      "position": "Frontend Tech Lead",
+      "company": "Deloitte",
+      "period": "April 2020 - November 2022",
+      "description": "Frontend Tech Lead on digital projects for <strong>Sesc Digital and Porto Seguro.</strong>",
+      "items": [
+        "Provided technical leadership for the team, participating in <strong>recruitment, mentoring, and training</strong>, as well as contributing to the definition of development best practices and technical solutions.",
+        "At <strong>Sesc Digital</strong>, developed the public-facing platform and administrative dashboard, expanding access to cultural content.",
+        "At <strong>Porto Seguro Auto</strong>, developed features for insurance brokers, making the insurance contracting process more automated, efficient, and intuitive."
+      ]
+    },
+
+    "accenture": {
+      "position": "Fullstack Developer",
+      "company": "Accenture",
+      "period": "October 2016 - April 2020",
+      "description": "Worked on projects for clients including <strong>Avianca, Santander, Hyundai, Grupo DPSP, Gerdau, GSK, and Vivo.</strong>",
+      "items": [
+        "Provided <strong>training, technical support, and guidance</strong> to teams, contributing to professional development and the adoption of best practices.",
+        "At <strong>Avianca Brazil</strong>, developed accessible interfaces following <strong>WCAG</strong> guidelines.",
+        "At <strong>Avianca Colombia</strong>, trained the team in Bogotá on development best practices and <strong>Web Accessibility.</strong>",
+        "At <strong>Grupo DPSP</strong>, developed a digital solution for point-of-sale programs, making processes faster, more efficient, and intuitive."
+      ]
+    },
+
+    "tagInterativa": {
+      "position": "Backend Developer",
+      "company": "TAG Interativa",
+      "period": "April 2014 - May 2015",
+      "items": [
+        "Worked across the entire solution development lifecycle, from <strong>database modeling</strong> to the development of administrative dashboards, enabling clients to manage content and information for their corporate websites more efficiently.",
+        "Applied software engineering best practices such as <strong>SOLID, MVC, and TDD</strong>, focusing on clean, well-structured, and maintainable code."
+      ]
+    }
+  },
+  "education": {
+    "title": "EDUCATION",
+    "course": "Bachelor's Degree in Computer Science"
+  },
+  "language": {
+    "title": "LANGUAGES",
+    "english": "<strong>English</strong> - advanced",
+    "spanish": "<strong>Spanish</strong> - intermediate."
+  }
+}
