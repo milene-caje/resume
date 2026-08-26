@@ -1,49 +1,33 @@
 import { Trans } from "react-i18next";
+import Tag from "../shared/Tag";
 
 function Skill() {
   return (
     <div className="flex flex-wrap justify-around text-xs gap-y-1">
-      <div className="  bg-slate-200 text-slate-900 rounded-md p-2">
-        Angular
-      </div>
-      <div className="  bg-slate-200 text-slate-900 rounded-md p-2">React</div>
-      <div className="  bg-slate-200 text-slate-900 rounded-md p-2">Vue</div>
-      <div className="  bg-slate-200 text-slate-900 rounded-md p-2">
-        TypeScript
-      </div>
-      <div className="  bg-slate-200 text-slate-900 rounded-md p-2">JS</div>
-      <div className="  bg-slate-200 text-slate-900 rounded-md p-2">HTML5</div>
-      <div className="  bg-slate-200 text-slate-900 rounded-md p-2">
-        SASS/SCSS
-      </div>
-      <div className="  bg-slate-200 text-slate-900 rounded-md p-2">
-        Tailwind CSS
-      </div>
-      <div className="  bg-slate-200 text-slate-900 rounded-md p-2">
-        Design Systems
-      </div>
-      <div className="  bg-slate-200 text-slate-900 rounded-md p-2">
+      <Tag>Angular</Tag>
+      <Tag>React</Tag>
+      <Tag>Vue</Tag>
+      <Tag>TypeScript</Tag>
+      <Tag>JS</Tag>
+      <Tag>HTML5</Tag>
+      <Tag>SASS/SCSS</Tag>
+      <Tag>Tailwind CSS</Tag>
+      <Tag>Design Systems</Tag>
+      <Tag>
         <Trans i18nKey="skill.unitTesting" />
-      </div>
-      <div className="  bg-slate-200 text-slate-900 rounded-md p-2">
+      </Tag>
+      <Tag>
         <Trans i18nKey="skill.webAccessibility" />
-      </div>
-      <div className="  bg-slate-200 text-slate-900 rounded-md p-2">SEO</div>
-      <div className="  bg-slate-200 text-slate-900 rounded-md p-2">
-        Code Review
-      </div>
-      <div className="  bg-slate-200 text-slate-900 rounded-md p-2">
-        Clean Code
-      </div>
-      <div className="  bg-slate-200 text-slate-900 rounded-md p-2">Git</div>
-      <div className="  bg-slate-200 text-slate-900 rounded-md p-2">
-        REST APIs
-      </div>
-      <div className="  bg-slate-200 text-slate-900 rounded-md p-2">CI/CD</div>
-      <div className="  bg-slate-200 text-slate-900 rounded-md p-2">AWS</div>
-
-      <div className="  bg-slate-200 text-slate-900 rounded-md p-2">Agile</div>
-      <div className="  bg-slate-200 text-slate-900 rounded-md p-2">UX/UI</div>
+      </Tag>
+      <Tag>SEO</Tag>
+      <Tag>Code Review</Tag>
+      <Tag>Clean Code</Tag>
+      <Tag>Git</Tag>
+      <Tag>REST APIs</Tag>
+      <Tag>CI/CD</Tag>
+      <Tag>AWS</Tag>
+      <Tag>Agile</Tag>
+      <Tag>UX/UI</Tag>
     </div>
   );
 }

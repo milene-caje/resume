@@ -1,218 +1,70 @@
-import { Trans } from "react-i18next";
+import ExperienceItem from "../shared/ExperienceItem";
 
 function ProfessionalExperience() {
+  const experiences = [
+    {
+      company: "experience.ciT.company",
+      position: "experience.ciT.position",
+      period: "experience.ciT.period",
+      description: "experience.ciT.description",
+      items: [
+        "experience.ciT.items.0",
+        "experience.ciT.items.1",
+        "experience.ciT.items.2",
+      ],
+    },
+    {
+      company: "experience.gft.company",
+      position: "experience.gft.position",
+      period: "experience.gft.period",
+      description: "experience.gft.description",
+      items: ["experience.gft.items.0", "experience.gft.items.1"],
+    },
+    {
+      company: "experience.deloitte.company",
+      position: "experience.deloitte.position",
+      period: "experience.deloitte.period",
+      description: "experience.deloitte.description",
+      items: [
+        "experience.deloitte.items.0",
+        "experience.deloitte.items.1",
+        "experience.deloitte.items.2",
+      ],
+    },
+    {
+      company: "experience.accenture.company",
+      position: "experience.accenture.position",
+      period: "experience.accenture.period",
+      description: "experience.accenture.description",
+      items: [
+        "experience.accenture.items.0",
+        "experience.accenture.items.1",
+        "experience.accenture.items.2",
+        "experience.accenture.items.3",
+      ],
+    },
+    {
+      company: "experience.tagInterativa.company",
+      position: "experience.tagInterativa.position",
+      period: "experience.tagInterativa.period",
+      items: [
+        "experience.tagInterativa.items.0",
+        "experience.tagInterativa.items.1",
+      ],
+    },
+  ];
+
   return (
     <div>
-      {/* CI&T */}
-      <div>
-        <div className="flex items-baseline justify-between">
-          <h3 className="text-1xl font-bold">
-            <Trans i18nKey="experience.ciT.position" /> -{" "}
-            <span className="text-sky-700">
-              <Trans i18nKey="experience.ciT.company" />
-            </span>
-          </h3>
+      {experiences.map((experience, index) => (
+        <div key={experience.company}>
+          <ExperienceItem {...experience} />
 
-          <span className="text-xs">
-            <Trans i18nKey="experience.ciT.period" />
-          </span>
+          {index < experiences.length - 1 && (
+            <hr className="my-1 border-t border-gray-200" />
+          )}
         </div>
-
-        <em>
-          <Trans
-            i18nKey="experience.ciT.description"
-            components={{ 1: <strong /> }}
-          />
-        </em>
-
-        <ul className="list-disc list-inside pl-4 text-xs">
-          <li>
-            <Trans
-              i18nKey="experience.ciT.items.0"
-              components={{ 1: <strong /> }}
-            />
-          </li>
-
-          <li>
-            <Trans i18nKey="experience.ciT.items.1" />
-          </li>
-
-          <li>
-            <Trans
-              i18nKey="experience.ciT.items.2"
-              components={{ 1: <strong /> }}
-            />
-          </li>
-        </ul>
-      </div>
-
-      <hr className="my-1 border-t border-gray-200" />
-      {/* GFT */}
-      <div>
-        <div className="flex items-baseline justify-between">
-          <h3 className="text-1xl font-bold">
-            <Trans i18nKey="experience.gft.position" /> -{" "}
-            <span className="text-sky-700">
-              <Trans i18nKey="experience.gft.company" />
-            </span>
-          </h3>
-
-          <span className="text-xs">
-            <Trans i18nKey="experience.gft.period" />
-          </span>
-        </div>
-
-        <em>
-          <Trans
-            i18nKey="experience.gft.description"
-            components={{ 1: <strong /> }}
-          />
-        </em>
-
-        <ul className="list-disc list-inside pl-4 text-xs">
-          <li>
-            <Trans i18nKey="experience.gft.items.0" />
-          </li>
-
-          <li>
-            <Trans
-              i18nKey="experience.gft.items.1"
-              components={{ 1: <strong /> }}
-            />
-          </li>
-        </ul>
-      </div>
-      <hr className="my-1 border-t border-gray-200" />
-      {/* Deloitte */}
-      <div>
-        <div className="flex items-baseline justify-between">
-          <h3 className="text-1xl font-bold">
-            <Trans i18nKey="experience.deloitte.position" /> -{" "}
-            <span className="text-sky-700">
-              <Trans i18nKey="experience.deloitte.company" />
-            </span>
-          </h3>
-
-          <span className="text-xs">
-            <Trans i18nKey="experience.deloitte.period" />
-          </span>
-        </div>
-
-        <em>
-          <Trans
-            i18nKey="experience.deloitte.description"
-            components={{ 1: <strong /> }}
-          />
-        </em>
-
-        <ul className="list-disc list-inside pl-4 text-xs">
-          <li>
-            <Trans
-              i18nKey="experience.deloitte.items.0"
-              components={{ 1: <strong /> }}
-            />
-          </li>
-
-          <li>
-            <Trans
-              i18nKey="experience.deloitte.items.1"
-              components={{ 1: <strong /> }}
-            />
-          </li>
-
-          <li>
-            <Trans
-              i18nKey="experience.deloitte.items.2"
-              components={{ 1: <strong /> }}
-            />
-          </li>
-        </ul>
-      </div>
-      <hr className="my-1 border-t border-gray-200" />
-      {/* Accenture */}
-      <div>
-        <div className="flex items-baseline justify-between">
-          <h3 className="text-1xl font-bold">
-            <Trans i18nKey="experience.accenture.position" /> -{" "}
-            <span className="text-sky-700">
-              <Trans i18nKey="experience.accenture.company" />
-            </span>
-          </h3>
-
-          <span className="text-xs">
-            <Trans i18nKey="experience.accenture.period" />
-          </span>
-        </div>
-
-        <em>
-          <Trans
-            i18nKey="experience.accenture.description"
-            components={{ 1: <strong /> }}
-          />
-        </em>
-
-        <ul className="list-disc list-inside pl-4 text-xs">
-          <li>
-            <Trans
-              i18nKey="experience.accenture.items.0"
-              components={{ 1: <strong /> }}
-            />
-          </li>
-
-          <li>
-            <Trans
-              i18nKey="experience.accenture.items.1"
-              components={{ 1: <strong /> }}
-            />
-          </li>
-
-          <li>
-            <Trans
-              i18nKey="experience.accenture.items.2"
-              components={{ 1: <strong /> }}
-            />
-          </li>
-
-          <li>
-            <Trans
-              i18nKey="experience.accenture.items.3"
-              components={{ 1: <strong /> }}
-            />
-          </li>
-        </ul>
-      </div>
-      <hr className="my-1 border-t border-gray-200" />
-      {/* TAG Interativa */}
-      <div>
-        <div className="flex items-baseline justify-between">
-          <h3 className="text-1xl font-bold">
-            <Trans i18nKey="experience.tagInterativa.position" /> -{" "}
-            <span className="text-sky-700">
-              <Trans i18nKey="experience.tagInterativa.company" />
-            </span>
-          </h3>
-
-          <span className="text-xs">
-            <Trans i18nKey="experience.tagInterativa.period" />
-          </span>
-        </div>
-
-        <ul className="list-disc list-inside pl-4 text-xs">
-          <li>
-            <Trans
-              i18nKey="experience.tagInterativa.items.0"
-              components={{ 1: <strong /> }}
-            />
-          </li>
-
-          <li>
-            <Trans
-              i18nKey="experience.tagInterativa.items.1"
-              components={{ 1: <strong /> }}
-            />
-          </li>
-        </ul>
-      </div>
+      ))}
     </div>
   );
 }

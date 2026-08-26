@@ -6,6 +6,7 @@ import Language from "./components/Language";
 import Skill from "./components/Skill";
 import "./App.css";
 import { Trans } from "react-i18next";
+import Title from "./shared/Title";
 
 function App() {
   return (
@@ -19,21 +20,21 @@ function App() {
         <Skill />
       </div>
       <div className="mb-4">
-        <h2 className="text-[18px] font-bold mb-2">
+        <Title>
           <Trans i18nKey="experience.title" />
-        </h2>
+        </Title>
         <ProfessionalExperience />
       </div>
       <div className="mb-4">
-        <h2 className="text-[18px] font-bold mb-2">
+        <Title>
           <Trans i18nKey="education.title" />
-        </h2>
+        </Title>
         <Education />
       </div>
       <div>
-        <h2 className="text-[18px] font-bold mb-2">
+        <Title>
           <Trans i18nKey="language.title" />
-        </h2>
+        </Title>
         <Language />
       </div>
     </div>

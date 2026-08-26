@@ -44,7 +44,6 @@ function Contact() {
           <MapPinIcon size={12} />
         </div>
         <div>
-          {" "}
           <Trans i18nKey="contact.location" />
         </div>
       </div>
