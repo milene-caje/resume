@@ -1,8 +1,8 @@
 # 💼 Milene Braz Cajé
 
-Desenvolvedora Front-end Sênior com mais de uma década de experiência no desenvolvimento de aplicações web e mobile. Sou apaixonada por criar interfaces intuitivas e acessíveis. Tenho experiência na adoção de Inteligência Artificial para otimizar processos, aumentar a qualidade das entregas e tornar o desenvolvimento mais eficiente.
+Senior Frontend Developer with over a decade of experience developing web and mobile applications. Passionate about creating intuitive and accessible interfaces. Experienced in adopting Artificial Intelligence to optimize processes, improve delivery quality, and increase development efficiency.
 
-Ao longo da minha carreira, colaborei com equipes multidisciplinares na entrega de soluções para grandes empresas, como Itaú, BTG Pactual, Porto Seguro, Sesc Digital, Hyundai, Avianca, além de outros clientes de diferentes segmentos.
+Throughout my career, I have collaborated with multidisciplinary teams to deliver solutions for major companies, including Itaú, BTG Pactual, Porto Seguro, Sesc Digital, Hyundai, and Avianca, as well as clients across different industries.
 
 ## 🚀 Technologies
 
