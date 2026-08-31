@@ -25,7 +25,7 @@ function ExperienceItem({
         </div>
 
         {description && (
-          <em>
+          <em className="text-xs">
             <Trans i18nKey={description} components={{ 1: <strong /> }} />
           </em>
         )}
