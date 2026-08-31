@@ -10,6 +10,10 @@ const router = createBrowserRouter([
     path: "/",
     element: <App />,
   },
+  {
+    path: "/en",
+    element: <App />,
+  },
 ]);
 
 const rootElement = document.getElementById("root");

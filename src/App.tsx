@@ -5,10 +5,21 @@ import Education from "./components/Education";
 import Language from "./components/Language";
 import Skill from "./components/Skill";
 import "./App.css";
-import { Trans } from "react-i18next";
+import { Trans, useTranslation } from "react-i18next";
 import Title from "./shared/Title";
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
 
 function App() {
+  const { i18n } = useTranslation();
+  const location = useLocation();
+
+  useEffect(() => {
+    const language = location.pathname.endsWith("/en") ? "en" : "pt-BR";
+
+    i18n.changeLanguage(language);
+  }, [location.pathname, i18n]);
+
   return (
     <div className="p-6 leading-5 text-sm mx-auto max-w-4xl">
       <Contact />
