@@ -3,12 +3,14 @@ import Tag from "../shared/Tag";
 
 function Skill() {
   return (
-    <div className="flex flex-wrap justify-around text-xs gap-y-1">
+    <div className="flex flex-wrap text-xs gap-1">
       <Tag>Angular</Tag>
       <Tag>React</Tag>
+      <Tag>Next.js</Tag>
+      <Tag>Vite</Tag>
       <Tag>Vue</Tag>
       <Tag>TypeScript</Tag>
-      <Tag>JS</Tag>
+      <Tag>JavaScript</Tag>
       <Tag>HTML5</Tag>
       <Tag>SASS/SCSS</Tag>
       <Tag>Tailwind CSS</Tag>
