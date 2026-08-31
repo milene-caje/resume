@@ -4,7 +4,7 @@ import { Trans } from "react-i18next";
 function Contact() {
   const phone = "5513997705991";
   return (
-    <div className="flex gap-2 flex-wrap justify-around gap-y-1 text-xs">
+    <div className="flex gap-2 flex-wrap gap-y-1 text-xs flex-col md:justify-around md:flex-row">
       <div className="flex items-center gap-1">
         <div className="border border-slate-800 p-1 rounded-full">
           <MailIcon size={14} />
