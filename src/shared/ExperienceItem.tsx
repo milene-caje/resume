@@ -11,7 +11,7 @@ function ExperienceItem({
   return (
     <>
       <div>
-        <div className="flex items-baseline justify-between">
+        <div className="md:flex items-baseline justify-between">
           <h3 className="text-1xl font-bold">
             <Trans i18nKey={position} /> -{" "}
             <span className="text-sky-700">

@@ -1,7 +1,7 @@
 import { Trans } from "react-i18next";
 function Language() {
   return (
-    <ul className="list-disc list-inside pl-4 text-xs flex gap-8">
+    <ul className="list-disc list-inside pl-4 text-xs md:flex md:gap-8">
       <li>
         <Trans
           i18nKey="language.english"

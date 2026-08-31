@@ -2,7 +2,7 @@ import { Trans } from "react-i18next";
 function Education() {
   return (
     <div>
-      <div className="flex items-baseline justify-between">
+      <div className="md:flex items-baseline justify-between">
         <h3 className="text-1xl font-bold">
           <Trans i18nKey="education.course" /> -
           <span className="text-sky-700"> Universidade Santa Cecília</span>
