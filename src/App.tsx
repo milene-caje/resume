@@ -10,7 +10,7 @@ import Title from "./shared/Title";
 
 function App() {
   return (
-    <div className="p-6 leading-5 text-sm">
+    <div className="p-6 leading-5 text-sm mx-auto max-w-4xl">
       <Contact />
       <div className="mb-4">
         <h1 className="text-[28px] font-bold my-4 text-center">
