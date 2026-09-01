@@ -18,9 +18,7 @@ function Skill() {
       <Tag>
         <Trans i18nKey="skill.unitTesting" />
       </Tag>
-      <Tag>
-        <Trans i18nKey="skill.webAccessibility" />
-      </Tag>
+      <Tag>Web Accessibility (WCAG)</Tag>
       <Tag>SEO</Tag>
       <Tag>Code Review</Tag>
       <Tag>Clean Code</Tag>
